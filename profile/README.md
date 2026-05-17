@@ -15,13 +15,14 @@
 
 <img width="855" height="422" alt="Image" src="https://github.com/user-attachments/assets/0307268e-816f-4ed6-ac67-8ec9a79ce72a" />
 
-- GPT-4o-mini LLM 모델 사용
+- 성능 및 비용 효율성에 대한 검증 결과를 기반으로 GPT-4o-mini 모델 선정
 
 ### 검증 결과
 
 <img width="860" height="413" alt="Image" src="https://github.com/user-attachments/assets/325afdd0-edd2-4a70-a58b-e8815c5bef22" />
 
 - LLM 기반 규칙 결정 후 형식 검증, 통계적 검증, LLM 기반 의미적 검증 수행
+- 출력된 검증 결과의 경우 문자열 의미적 일관성 오류, 문자열 잘림 오류, 도메인 허용값 오류 등 정형 데이터뿐만 아니라 비정형 데이터에서도 발생 가능한 오류를 효과적으로 탐지할 수 있음을 확인
 
 ### 데이터 미리보기
 
@@ -35,4 +36,4 @@
 
 - 컬럼 명 및 샘플 데이터를 LLM이 보고 분석 항목 도출 및 분석 코드 작성
 - 실행 버튼 클릭을 통해 작성된 분석 코드 실행 가능
-- 출력된 분석 결과의 경우 시설 종류 별 CCTV 설치 비율으로 초등학교 근처에 CCTV가 가장 많이 설치되어 있다는 사실 확인 가능
+- 출력된 분석 결과의 경우 시설 종류 별 CCTV 설치 비율으로 초등학교 근처에 CCTV가 가장 많이 설치되어 있음을 확인
